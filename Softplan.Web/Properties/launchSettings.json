@@ -1,0 +1,28 @@
+﻿{
+    "iisSettings": {
+        "windowsAuthentication": false,
+        "anonymousAuthentication": true,
+        "iisExpress": {
+            "applicationUrl": "http://localhost:62660/",
+            "sslPort": 44340
+        }
+    },
+    "profiles": {
+        "Softplan.Web": {
+            "commandName": "Project",
+            "launchBrowser": true,
+            "Logging": {
+                "LogLevel": {
+                    "Default": "Debug",
+                    "System": "Information",
+                    "Microsoft": "Information"
+                }
+            },
+            "environmentVariables": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "BASE_URI": "http://localhost:5000/v1"
+            },
+            "applicationUrl": "http://localhost:5000"
+        }
+    }
+}
